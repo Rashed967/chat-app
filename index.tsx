@@ -7,7 +7,7 @@
 import {GoogleGenAI} from '@google/genai';
 import * as marked from 'marked';
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_API_KEY = 'AIzaSyCigGG7RBj8K-1L5IXovPRNJahjoYTn4B8';
 
 async function debug(...args: string[]) {
   const turn = document.createElement('div');
